@@ -103,6 +103,92 @@ Cihazınızdaki durumu gözlemleyemediğimiz için şu an sizlere destek olamıy
 Kontrollerimizi sağladığımızda yaşadığınız durumun yeni bir parça teminiyle çözülebileceğini değerlendiriyoruz. Dilerseniz satın alabilmeniz için sizi ilgili parçaya yönlendirebilirim.
 Yaptığımız kontroller doğrultusunda cihazınızdaki durumun yeni bir parça teminiyle giderilebileceğini düşünüyoruz. Dilerseniz ilgili parçayı satın alabilmeniz için size yardımcı olabilirim.
 Gerçekleştirdiğimiz kontroller sonucunda cihazınızdaki durum için ilgili parçanın yenilenmesinin çözüm sağlayabileceğini değerlendiriyoruz. Dilerseniz parçanın satın alma sayfasına yönlendirebilirim.
+
+
+Açıklamada belirtilen dinamik ve pratik Script Bulucu yapısını Excel Web (veya güncel Excel) üzerinde adım adım ve kolayca kurabilirsiniz.
+
+Tüm yapıyı 3 ana aşamada hayata geçireceğiz.
+
+📋 1. Adım: Veri Tabanını Hazırlamak (Scriptler Sayfası)
+Öncelikle verilerimizin duracağı ana tabloyu hazırlıyoruz.
+
+Excel'de alt taraftan yeni bir sayfa (sekme) açın ve adını Scriptler yapın.
+
+Sayfada A1:E1 hücrelerine şu başlıkları yazın:
+
+A1: Kısayol
+
+B1: Kategori
+
+C1: Durum
+
+D1: Varyasyon
+
+E1: Script
+
+2. satırdan itibaren script verilerinizi ekleyin (Örn: A2 = BEK-01, B2 = Bekletme, C2 = Normal kontrol, D2 = Ana, E2 = İşlemlerinize devam ediyorum...).
+
+💡 İpucu (Tabloya Dönüştürme): Verilerinizi seçip Ekle > Tablo (veya Ctrl + T) yaparsanız yeni script eklediğinizde formülleriniz otomatik güncellenir. Tablonun adını ScriptTablosu olarak değiştirebilirsiniz.
+
+🔎 2. Adım: Arayüzü ve Dropdown'ları Oluşturmak (Script Bulucu Sayfası)
+Şimdi arama yapacağımız ana ekranı kuruyoruz.
+
+Alt taraftan yeni bir sayfa açıp adını Script Bulucu koyun.
+
+Tasarımı şu hücrelere göre ayarlayın:
+
+A2: Kategori   →   B2: (Dropdown buraya gelecek)
+
+A3: Durum       →   B3: (Dropdown buraya gelecek)
+
+A4: Varyasyon →   B4: (Dropdown buraya gelecek)
+
+B6: (Arama Sonucu / Script Metni buraya gelecek)
+
+Dropdown (Veri Doğrulama) Ekleme:
+B2 hücresini seçin.
+
+Üst menüden Veri > Veri Doğrulama (Data Validation) seçeneğine tıklayın.
+
+İzin Verilen: Liste seçin.
+
+Kaynak kısmına Kategori listesini virgülle yazın veya Scriptler sayfasındaki kategori sütununu seçin (Örn: Bekletme, Techsee, Parça).
+
+Aynı işlemi B3 (Durum) ve B4 (Varyasyon) hücreleri için de kendi seçeneklerinizi girerek tekrarlayın.
+
+💡 Önemli Seçenek: Seçimi esnetebilmek için dropdown listelerinizin en üstüne veya listenize "Tümü" seçeneğini de eklemeyi unutmayın!
+
+⚙️ 3. Adım: Otomatik Script Getiren Formül (B6 Hücresi)
+Seçimlerinize göre scripti dinamik getirecek formülü yazıyoruz.
+
+Seçenek A: Tek ve Kesin Eşleşme (En Sade Yapı)
+Dropdown'larda 3 kriter de tam seçildiğinde tek bir script getirmek için B6 hücresine şu formülü yapıştırın:
+
+Excel
+=FİLTRE(Scriptler!E2:E100; (Scriptler!B2:B100=B2) * (Scriptler!C2:C100=B3) * (Scriptler!D2:D100=B4); "Eşleşen script bulunamadı.")
+Seçenek B: "Tümü" / Esnek Seçim Desteği (Önerilen)
+Eğer "Tümü" seçeneğini seçtiğinizde veya bir kutuyu boş bıraktığınızda o kriteri filtreye dahil etmeden arama yapmasını istiyorsanız, B6 hücresine şu gelişmiş formülü girin:
+
+Excel
+=FİLTRE(
+  Scriptler!E2:E100;
+  ((B2="Tümü") + (B2="") + (Scriptler!B2:B100=B2)) *
+  ((B3="Tümü") + (B3="") + (Scriptler!C3:C100=B3)) *
+  ((B4="Tümü") + (B4="") + (Scriptler!D2:D100=B4));
+  "Seçtiğiniz kriterlere uygun script bulunamadı."
+)
+Bu Formül Nasıl Çalışır?
+
+B2, B3, B4 tam doldurulduğunda direkt o kriterlere uyan metni getirir.
+
+Örneğin Durum için "Tümü" seçilirse, o kategorideki tüm ilgili scriptleri alt alta sıralar.
+
+Eğer kriterlere uyan kayıt yoksa belirlenen uyarı mesajını görüntüler.
+
+🎨 Görsel İpuçları ve Kullanım
+B6 Hücresini Metni Kaydır Yapın: Scriptler uzun olacağı için B6 hücresini seçip Giriş > Metni Kaydır (Wrap Text) özelliğini açın ve hücre boyutunu genişletin.
+
+Çerçeve / Kutu Ekleyin: B6 hücresine kalın bir dış kenarlık ve hafif gri/mavi bir dolgu rengi vererek şık bir kart görünümü kazandırabilirsiniz.
 Kontrollerimiz doğrultusunda yaşadığınız durumun yeni bir parça teminiyle çözülebileceğini değerlendiriyoruz. Dilerseniz ilgili parçanın satın alma bağlantısını paylaşabilirim.
 Kontrollerimiz doğrultusunda yaşadığınız durumun yeni bir parça teminiyle çözülebileceğini değerlendiriyoruz. İlgili parçanın web sitemizde bulunmaması durumunda, satın alma işleminizde kullanabilmeniz için parça kodunu da paylaşabilirim.
 
