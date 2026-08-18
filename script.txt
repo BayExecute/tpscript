@@ -6,6 +6,31 @@ Merhaba, Dyson'a hoş geldiniz. Ben Mehmet. Size yardımcı olabilmek için bura
 Merhaba, Dyson'a hoş geldiniz. Ben Mehmet. Size memnuniyetle yardımcı olacağım. Yaşadığınız durumu bizimle paylaşabilir misiniz?
 Merhaba, Dyson'a hoş geldiniz. Ben Mehmet. Size yardımcı olmaktan mutluluk duyacağım. Öncelikle yaşadığınız durumu detaylarıyla birlikte anlatabilir misiniz?
 
+
+
+Bekletme
+
+İşlemlerinize devam ediyorum, anlayışınız için teşekkür ederim.
+Kontrollerimi sağlıyorum, teşekkür ederim.
+Kontrollerimi sağlıyorum, kısa bir süre beklemenizi rica ederim.
+İşlemlerinize devam edebilmek adına gerekli kontrolleri sağlıyorum. Anlayışınız için teşekkür ederim.
+Kontrollerimi sağlıyorum, işlemler biraz daha uzun sürebiliyor. Anlayışınız için teşekkür ederim.
+İşlemlerinizle ilgili kontrollerimi sürdürüyorum. Biraz daha beklemenizi rica ederim, anlayışınız için teşekkür ederim.
+Kontrollerimi sağlıyorum, bir dakikanızı rica ederim.
+
+
+
+Başka konu
+
+Yardımcı olabileceğim başka bir konu varsa, sizlere buradan memnuniyetle yardımcı olmak isterim.
+Başka bir konuda da yardımcı olmamı isterseniz, memnuniyetle yardımcı olabilirim.
+Size yardımcı olabileceğim başka bir durum varsa, memnuniyetle yardımcı olmak isterim.
+Başka bir konuda da desteğe ihtiyaç duyuyorsanız, sizlere memnuniyetle yardımcı olabilirim.
+Başka bir konuda da yardımcı olmamı isterseniz memnuniyetle yardımcı olabilirim.
+Talebiniz dışında yardımcı olabileceğim başka bir konu varsa, sizlere memnuniyetle destek olmak isterim.
+
+
+
 Seri no isteme
 
 İşlemlerinize devam edebilmem için cihazınızın seri numarasının görselini de paylaşmanızı rica ederim.
@@ -13,6 +38,16 @@ Seri no isteme
 İşlemlerinize devam edebilmem için cihazınızın seri numarasının görselini paylaşmanızı rica ederim.
 Size yardımcı olmaya devam edebilmem için cihazınızın seri numarasını gösteren bir görseli de iletebilir misiniz?
 Teşekkür ederim. İşlemlerinize devam edebilmem için cihazınızın seri numarasının görselini de paylaşmanızı rica ederim.
+
+
+
+Engage kaydı yok
+
+Paylaştığınız bilgilerle eşleşen bir profil görüntüleyemiyorum. İşlemlerinize devam edebilmem için cihaz sahibine ait bilgileri veya cihazı satın alırken kullandığınız bilgileri benimle paylaşabilir misiniz?
+İlettiğiniz bilgilerle sistemimizde bir profil görüntüleyemiyorum. Dilerseniz cihaz sahibinin bilgilerini veya satın alma sırasında kullandığınız bilgileri paylaşarak tekrar kontrol sağlayabiliriz.
+Paylaştığınız bilgiler üzerinden sistemimizde bir profil eşleşmesi sağlayamıyorum. İşlemlerinize devam edebilmemiz adına cihaz sahibinin bilgilerini veya satın alma işlemi sırasında kullanılan bilgileri iletebilir misiniz?
+Paylaştığınız bilgilerle eşleşen bir profil görüntüleyemiyorum. Cihaz sahibinin veya satın alma sırasında kullanılan bilgileri paylaşabilir misiniz?
+Paylaştığınız bilgilerle bir profil eşleşmesi sağlayamadım. Size yardımcı olmaya devam edebilmem için cihaz sahibinin bilgilerini veya satın alma sırasında kullandığınız bilgileri benimle paylaşabilir misiniz?
 
 Detay isteme.
 
@@ -22,6 +57,8 @@ Yaşadığınız durumu daha iyi anlayabilmemiz ve size uygun şekilde yardımc�
 Size yardımcı olabilmemiz için cihazınızda yaşadığınız durumu detaylandırabilir misiniz?
 Size en iyi şekilde yardımcı olabilmek adına cihazınızda yaşadığınız durumu bizimle biraz daha detaylı paylaşabilir misiniz?
 
+
+
 Techsee davet
 
 Dilerseniz cihazınızda yaşadığınız durumu daha detaylı inceleyebilmemiz adına WhatsApp üzerinden bir görüntülü görüşme bağlantısı iletebilirim.
@@ -30,6 +67,8 @@ Cihazınızda yaşadığınız durumu daha detaylı değerlendirebilmemiz adına
 Dilerseniz cihazınızdaki durumu inceleyebilmemiz için WhatsApp üzerinden bir görüntülü görüşme bağlantısı paylaşabilirim.
 Cihazınızdaki durumu görüntülü olarak inceleyebilmemiz için dilerseniz WhatsApp üzerinden bir görüntülü görüşme bağlantısı iletebilirim.
 
+
+
 Anket hatırlatma
 
 Görüşleriniz bizim için çok değerli. Görüşmemizin sonunda sizlere kısa bir anket yönlendirilecektir. Anketi doldurarak görüşlerinizi bizimle paylaşırsanız çok memnun oluruz.
@@ -37,3 +76,33 @@ Görüşleriniz bizim için oldukça değerli. Görüşmemizin sonunda sizlere k
 Görüşleriniz benim için de çok değerli. Görüşmemizin sonunda sizlere kısa bir anket yönlendireceğim. Anketi doldurarak görüşlerinizi paylaşmanız beni çok mutlu eder.
 Görüşmemizin sonunda sizlere kısa bir anket yönlendirilecektir. Görüşlerinizi paylaşmanız bizim için çok değerli.
 Görüşleriniz bizim için çok değerli. Görüşmemizin sonunda sizlere kısa bir anket iletilecek. Vakit ayırıp görüşlerinizi paylaşmanızdan büyük memnuniyet duyarız.
+
+
+
+Garanti dışı
+
+Cihazınızda yaşadığınız durum, kullanım kaynaklı oluşabilecek durumlar kapsamında değerlendirildiğinden garanti kapsamında destek sunamıyoruz. Ancak dilerseniz sizlere ücretli destek seçeneklerimiz hakkında bilgi verebilirim.
+Cihazınızda yaşadığınız durum garanti kapsamında değerlendirilemediğinden, sizlere ücretli destek seçenekleri sunabiliriz. Dilerseniz bu seçenekler hakkında detaylı bilgi paylaşabilirim.
+Yapılan değerlendirme doğrultusunda cihazınızdaki durumun kullanım kaynaklı oluşabilecek durumlar kapsamında olduğu görülmektedir. Bu nedenle garanti kapsamında destek sunulamamaktadır. Ücretli destek seçenekleriyle ilgili dilerseniz sizlere yardımcı olabilirim.
+Cihazınızda yaşadığınız durumun garanti kapsamında değerlendirilememesi nedeniyle üzgün olduğumuzu belirtmek isterim. Bu durumda sizlere ücretli destek seçeneklerimiz üzerinden yardımcı olabiliriz. Dilerseniz detayları paylaşabilirim.
+
+
+
+Tekrar bağlanma
+
+Cihazınızdaki durumu gözlemleyemediğimiz için sizlere maalesef destek olamıyoruz. Dilerseniz 09.00 - 21.00 saatleri arasında bizlere tekrar bağlanarak hizmet alabilirsiniz.
+Cihazınızı ve yaşadığınız durumu gözlemleyemediğimiz için şu an sizlere maalesef destek olamıyoruz. Cihazınız yanınızda olduğunda 09.00 - 21.00 saatleri arasında bizlere tekrar bağlanabilirsiniz.
+Cihazınızdaki durumu görüntüleyemediğimiz için gerekli kontrolleri gerçekleştiremiyoruz. Dilerseniz 09.00 - 21.00 saatleri arasında cihazınız yanınızdayken bizlere tekrar bağlanarak destek alabilirsiniz.
+Cihazınızdaki durumu gözlemleyemediğimiz için maalesef destek sağlayamıyoruz. Dilerseniz 09.00 - 21.00 saatleri arasında tekrar bizlere bağlanabilirsiniz.
+Cihazınızdaki durumu gözlemleyemediğimiz için şu an sizlere destek olamıyoruz. Cihazınız yanınızda olduğunda veya görüntülü görüşmeye uygun olduğunuzda 09.00 - 21.00 saatleri arasında tekrar bizlere ulaşabilirsiniz.
+
+
+
+Ücretli parça
+
+Kontrollerimizi sağladığımızda yaşadığınız durumun yeni bir parça teminiyle çözülebileceğini değerlendiriyoruz. Dilerseniz satın alabilmeniz için sizi ilgili parçaya yönlendirebilirim.
+Yaptığımız kontroller doğrultusunda cihazınızdaki durumun yeni bir parça teminiyle giderilebileceğini düşünüyoruz. Dilerseniz ilgili parçayı satın alabilmeniz için size yardımcı olabilirim.
+Gerçekleştirdiğimiz kontroller sonucunda cihazınızdaki durum için ilgili parçanın yenilenmesinin çözüm sağlayabileceğini değerlendiriyoruz. Dilerseniz parçanın satın alma sayfasına yönlendirebilirim.
+Kontrollerimiz doğrultusunda yaşadığınız durumun yeni bir parça teminiyle çözülebileceğini değerlendiriyoruz. Dilerseniz ilgili parçanın satın alma bağlantısını paylaşabilirim.
+Kontrollerimiz doğrultusunda yaşadığınız durumun yeni bir parça teminiyle çözülebileceğini değerlendiriyoruz. İlgili parçanın web sitemizde bulunmaması durumunda, satın alma işleminizde kullanabilmeniz için parça kodunu da paylaşabilirim.
+
